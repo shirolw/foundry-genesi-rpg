@@ -7,7 +7,8 @@
     "minimum": "12",
     "verified": "12"
   },
-  "manifest": "",
+  "url": "https://github.com/shirolw/foundry-genesi-rpg",
+  "manifest": "https://raw.githubusercontent.com/shirolw/foundry-genesi-rpg/main/system.json",
   "authors": [
     {
       "name": "Shiro",
