@@ -1,0 +1,30 @@
+{
+  "id": "genesi-rpg",
+  "title": "Genesi RPG",
+  "description": "Sistema Genesi RPG adaptado para o Foundry VTT",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "authors": [
+    {
+      "name": "Shiro",
+      "url": ""
+    }
+  ],
+  "esmodules": [],
+  "styles": [],
+  "documentTypes": {
+    "Actor": {
+      "Personagem": [],
+      "NPC": [],
+      "Chefe": [],
+      "Inimigo": [],
+      "Grupo": []
+    }
+  }
+}
