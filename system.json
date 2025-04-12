@@ -38,9 +38,9 @@
   "styles": ["css/genesi-rpg.css"],
   "languages": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
+      "lang": "pt-BR",
+      "name": "Português",
+      "path": "lang/pt-BR.json"
     }
   ],
   "packs": [],

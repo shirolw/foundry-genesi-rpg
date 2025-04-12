@@ -1,16 +1,15 @@
 {
   "GENESI_RPG": {
     "Ability": {
-      "Str": { "long": "Strength", "abbr": "str" },
-      "Con": { "long": "Constitution", "abbr": "con" },
-      "Dex": { "long": "Dexterity", "abbr": "dex" },
-      "Int": { "long": "Intelligence", "abbr": "int" },
-      "Wis": { "long": "Wisdom", "abbr": "wis" },
-      "Cha": { "long": "Charisma", "abbr": "cha" }
+      "Str": { "long": "Corpo", "abbr": "cor" },
+      "Con": { "long": "Destreza", "abbr": "des" },
+      "Dex": { "long": "Mente", "abbr": "men" },
+      "Int": { "long": "Magia", "abbr": "mag" },
+      "Wis": { "long": "Presença", "abbr": "pre" }
     },
     "SheetLabels": {
-      "Actor": "GenesiRPG Actor Sheet",
-      "Item": "GenesiRPG Item Sheet"
+      "Actor": "Ficha de Ator - Genesi RPG",
+      "Item": "Ficha de Item - Genesi RPG"
     },
     "Item": {
       "Spell": {
@@ -29,7 +28,7 @@
 
   "TYPES": {
     "Actor": {
-      "character": "Character",
+      "character": "Personagem",
       "npc": "NPC"
     },
     "Item": {
