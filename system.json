@@ -1,15 +1,17 @@
 {
   "id": "genesi-rpg",
   "title": "Genesi RPG",
-  "description": "The Genesi RPG system for FoundryVTT!",
+  "description": "Sistema Genesi RPG adaptado para o FoundryVTT!",
   "authors": [
     {
-      "name": "Asacolips",
-      "discord": "asacolips"
+      "name": "Shiro",
+      "discord": "kumayshiro",
+      "url": "https://github.com/shirolw"
     },
     {
-      "name": "Lee Talman",
-      "discord": ".pizzaWizard"
+      "name": "Alex Almeida",
+      "url": "https://github.com/ySunSh1ne",
+      "discord": "ysuns1ne"
     }
   ],
   "url": "Replace this with a link to your public repository",
@@ -24,10 +26,11 @@
       "thumbnail": "systems/genesi-rpg/assets/logo/genesi_logo_colorido_est_cont.jpg"
     }
   ],
-  "version": "2.0.0",
+  "version": "0.1.0",
   "compatibility": {
     "minimum": 11,
-    "verified": "11.315"
+    "verified": "12",
+    "maximum": "12"
   },
   "esmodules": ["module/genesi-rpg.mjs"],
   "styles": ["css/genesi-rpg.css"],
