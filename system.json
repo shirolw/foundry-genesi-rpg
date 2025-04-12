@@ -20,8 +20,8 @@
   "media": [
     {
       "type": "setup",
-      "url": "systems/genesi-rpg/assets/anvil-impact.png",
-      "thumbnail": "systems/genesi-rpg/assets/anvil-impact.png"
+      "url": "systems/genesi-rpg/assets/logo/genesi_logo_colorido_cont.jpg",
+      "thumbnail": "systems/genesi-rpg/assets/logo/genesi_logo_colorido_est_cont.jpg"
     }
   ],
   "version": "2.0.0",
