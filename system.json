@@ -47,8 +47,10 @@
   "packFolders": [],
   "socket": false,
   "background": "systems/genesi-rpg/assets/yggdrasil.png",
-  "gridDistance": 5,
-  "gridUnits": "ft",
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power"
 }
