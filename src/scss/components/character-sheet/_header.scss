@@ -1,9 +1,5 @@
 .genesi-rpg {
   .character-sheet-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
     position: relative;
 
     .character-sheet-name {
@@ -23,10 +19,6 @@
     }
 
     .character-profile-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
       .character-profile-image {
         width: 120px;
         height: 120px;
