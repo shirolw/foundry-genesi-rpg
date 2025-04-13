@@ -1,0 +1,106 @@
+.genesi-rpg {
+  .character-sheet-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+
+    .character-sheet-name {
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+
+    .character-sheet-name input {
+      padding: 12px 20px;
+      border: none;
+      border-bottom: 1px solid var(--color-base);
+      border-radius: 10px;
+      &:hover {
+        border-color: var(--color-primary);
+      }
+    }
+
+    .character-profile-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .character-profile-image {
+        width: 120px;
+        height: 120px;
+        border-radius: 9999px;
+        position: relative;
+        margin: auto;
+      }
+
+      .character-profile-attributes-list {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+        list-style: none;
+
+        .character-profile-attribute {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 4px;
+
+          .character-attribute-label {
+            font-size: 16px;
+            font-weight: 900;
+            text-transform: uppercase;
+          }
+
+          .character-attribute-input-container {
+            position: relative;
+
+            input.character-attribute-input {
+              width: 40px;
+              height: 40px;
+              border-radius: 9999px;
+              border: 1px solid var(--color-base);
+              text-align: center;
+              font-size: 16px;
+              font-weight: 900;
+              color: var(--color-base);
+              background-color: transparent;
+              transition: all 0.3s ease-in-out;
+              background-color: var(--color-content);
+
+              &:hover {
+                border-color: var(--color-primary);
+                background-color: var(--color-primary-light);
+                color: var(--color-primary-dark);
+              }
+
+              &:focus {
+                outline: none;
+                border-color: var(--color-primary);
+                background-color: var(--color-primary-light);
+                color: var(--color-primary-dark);
+              }
+            }
+
+            .character-attribute-modifier {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 9999px;
+              border: 1px solid var(--color-base);
+              width: 30px;
+              height: 30px;
+              padding: 6px;
+              position: absolute;
+              bottom: -14px;
+              right: -14px;
+              background-color: var(--color-content);
+            }
+          }
+        }
+      }
+    }
+  }
+}
