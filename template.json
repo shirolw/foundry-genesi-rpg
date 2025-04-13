@@ -24,22 +24,19 @@
         }
       },
       "abilities": {
-        "str": {
+        "cor": {
           "value": 10
         },
-        "dex": {
+        "des": {
           "value": 10
         },
-        "con": {
+        "men": {
           "value": 10
         },
-        "int": {
+        "mag": {
           "value": 10
         },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
+        "pre": {
           "value": 10
         }
       }
@@ -60,7 +57,7 @@
       "templates": ["base"],
       "quantity": 1,
       "weight": 0,
-      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+      "formula": "d20 + @cor.mod + ceil(@lvl / 2)"
     },
     "feature": {
       "templates": ["base"]

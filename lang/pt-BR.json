@@ -1,11 +1,11 @@
 {
   "GENESI_RPG": {
     "Ability": {
-      "Str": { "long": "Corpo", "abbr": "cor" },
-      "Con": { "long": "Destreza", "abbr": "des" },
-      "Dex": { "long": "Mente", "abbr": "men" },
-      "Int": { "long": "Magia", "abbr": "mag" },
-      "Wis": { "long": "Presença", "abbr": "pre" }
+      "Cor": { "long": "Corpo", "abbr": "cor" },
+      "Des": { "long": "Destreza", "abbr": "des" },
+      "Men": { "long": "Mente", "abbr": "men" },
+      "Mag": { "long": "Magia", "abbr": "mag" },
+      "Pre": { "long": "Presença", "abbr": "pre" }
     },
     "SheetLabels": {
       "Actor": "Ficha de Ator - Genesi RPG",

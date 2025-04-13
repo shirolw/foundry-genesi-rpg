@@ -5,19 +5,17 @@ export const GENESI_RPG = {};
  * @type {Object}
  */
 GENESI_RPG.abilities = {
-  str: 'GENESI_RPG.Ability.Str.long',
-  dex: 'GENESI_RPG.Ability.Dex.long',
-  con: 'GENESI_RPG.Ability.Con.long',
-  int: 'GENESI_RPG.Ability.Int.long',
-  wis: 'GENESI_RPG.Ability.Wis.long',
-  cha: 'GENESI_RPG.Ability.Cha.long',
+  cor: "GENESI_RPG.Ability.Cor.long",
+  des: "GENESI_RPG.Ability.Des.long",
+  men: "GENESI_RPG.Ability.Men.long",
+  mag: "GENESI_RPG.Ability.Mag.long",
+  pre: "GENESI_RPG.Ability.Pre.long",
 };
 
 GENESI_RPG.abilityAbbreviations = {
-  str: 'GENESI_RPG.Ability.Str.abbr',
-  dex: 'GENESI_RPG.Ability.Dex.abbr',
-  con: 'GENESI_RPG.Ability.Con.abbr',
-  int: 'GENESI_RPG.Ability.Int.abbr',
-  wis: 'GENESI_RPG.Ability.Wis.abbr',
-  cha: 'GENESI_RPG.Ability.Cha.abbr',
+  cor: "GENESI_RPG.Ability.Cor.abbr",
+  des: "GENESI_RPG.Ability.Des.abbr",
+  men: "GENESI_RPG.Ability.Men.abbr",
+  mag: "GENESI_RPG.Ability.Mag.abbr",
+  pre: "GENESI_RPG.Ability.Pre.abbr",
 };
