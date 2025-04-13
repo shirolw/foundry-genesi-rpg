@@ -15,6 +15,7 @@
 
 .genesi-rpg .character-sheet-header {
   position: relative;
+  color: var(--color-neutral);
 }
 .genesi-rpg .character-sheet-header .character-sheet-name {
   padding: 0;
@@ -38,17 +39,20 @@
   margin: auto;
 }
 .genesi-rpg .character-sheet-header .character-profile-container .character-profile-attributes-list {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   width: 100%;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .genesi-rpg .character-sheet-header .character-profile-container .character-profile-attributes-list .character-profile-attribute {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
+  width: 100%;
+  max-width: 120px;
 }
 .genesi-rpg .character-sheet-header .character-profile-container .character-profile-attributes-list .character-profile-attribute .character-attribute-label {
   font-size: 16px;
@@ -68,8 +72,6 @@
   font-weight: 900;
   color: var(--color-base);
   background-color: transparent;
-  transition: all 0.3s ease-in-out;
-  background-color: var(--color-content);
 }
 .genesi-rpg .character-sheet-header .character-profile-container .character-profile-attributes-list .character-profile-attribute .character-attribute-input-container input.character-attribute-input:hover {
   border-color: var(--color-primary);
@@ -127,6 +129,8 @@
     #a259ff 100%
   );
   --color-starfield-gradient: radial-gradient(circle, #3c91e6 0%, #0e0b16 100%);
+  --rounded-full: 9999px;
+  --aspect-square: 1 / 1;
 }
 
 .window-app {
