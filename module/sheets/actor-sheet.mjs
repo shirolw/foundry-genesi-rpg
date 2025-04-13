@@ -11,14 +11,14 @@ export class GenesiRPGActorSheet extends ActorSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ['genesi-rpg', 'sheet', 'actor'],
-      width: 600,
-      height: 600,
+      classes: ["genesi-rpg", "sheet", "actor"],
+      width: 900,
+      height: 1200,
       tabs: [
         {
-          navSelector: '.sheet-tabs',
-          contentSelector: '.sheet-body',
-          initial: 'features',
+          navSelector: ".sheet-tabs",
+          contentSelector: ".sheet-body",
+          initial: "features",
         },
       ],
     });
