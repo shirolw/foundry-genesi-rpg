@@ -1,0 +1,47 @@
+<header class="character-sheet-header">
+  <h1 class="charname">
+    <input name="name" type="text" value="{{actor.name}}" placeholder="Name" />
+  </h1>
+
+  <div>
+    <img
+      class="character-profile-image"
+      src="{{actor.img}}"
+      data-edit="img"
+      title="{{actor.name}}"
+      height="100"
+      width="100"
+    />
+
+    <ul class="character-profile-attributes-list">
+      {{#each system.abilities as |ability key|}}
+        <li class="character-profile-attribute">
+          <label
+            for="system.abilities.{{key}}.value"
+            class="character-attribute-label rollable"
+            data-roll="d20+@abilities.{{key}}.mod"
+            data-label="{{localize (lookup @root.config.abilities key)}}"
+          >
+            {{localize (lookup @root.config.abilities key)}}
+          </label>
+
+          <input
+            type="text"
+            name="system.abilities.{{key}}.value"
+            value="{{ability.value}}"
+            data-dtype="Number"
+            class="character-attribute-input"
+          />
+
+          <span
+            class="character-attribute-modifier rollable"
+            data-roll="d20+@abilities.{{key}}.mod"
+            data-label="{{localize (lookup @root.config.abilities key)}}"
+          >
+            {{numberFormat ability.mod decimals=0 sign=true}}
+          </span>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</header>

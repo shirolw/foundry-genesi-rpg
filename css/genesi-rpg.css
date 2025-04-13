@@ -364,3 +364,33 @@
 .genesi-rpg .effects .item .effect-controls {
   border: none;
 }
+
+.genesi-rpg .character-sheet-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.genesi-rpg .character-sheet-header .character-profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 9999px;
+  position: relative;
+}
+
+.genesi-rpg .character-sheet-header .character-profile-attributes-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  list-style: none;
+}
+
+.genesi-rpg .character-sheet-header .character-profile-attributes-list .character-profile-attribute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
